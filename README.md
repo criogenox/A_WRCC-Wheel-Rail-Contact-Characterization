@@ -26,6 +26,22 @@ Let's Prof. Dr. Ing. habil. Oldrich Polach clarifies our way:
 The equivalent conicity acts as a safety parameter which describes the behavior and dynamic interaction between rails & wheels running on a straight or large radius (curved) track. This way, the equivalent conicity could indicate the presence of instable movement leading to a derailment event, therefore It can be used to determine a critical speed of a train at any type of track.
   
 This crucial parameter could be calculated based on two standards, namely **UIC 519** and **EN 15302**. The non-linear method described in the last one is used by the giving software.
+
+
+For the described method of determination the following assumptions are used:
+ in the calculation both the wheel and the rail are considered rigid;
+ wheels are symmetrical in revolution and are represented by a single profile for each wheel;
+ rails are straight, parallel to each other and represented by a single profile for each rail;
+ wheel does not penetrate into the rail: only point contacts are considered; 
+
+This is done by the following procedure:
+a) determine the wheel and rail profiles, either by measurement of real profiles or by a theoretical calculation
+for theoretical profiles;
+b) determine the ∆r = f(y) characteristic giving, for each lateral movement y of the wheelset on the track, the
+difference between the right-hand and the left-hand rolling radius ∆r = r1 – r2;
+c) determine the equivalent conicity for a lateral movement yˆ of the wheelset on the track. 
+
+
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
