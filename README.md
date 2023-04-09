@@ -5,7 +5,7 @@
   <a align="center">
     <img src="https://user-images.githubusercontent.com/53323058/230743216-c0687fae-50d3-483e-b5fc-65f5ccbbe3fd.png" alt="Logo" width="800">
   </a>
-  <h3 align="center">Railway applications</h3>
+  <h3 align="center">Railway applications &#x300A; B &#x300B;</h3>
   <p align="center">
     Wheel / Rail Contact Characterization Program
   </p>
