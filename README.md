@@ -5,12 +5,24 @@
   <a align="center">
     <img src="https://user-images.githubusercontent.com/53323058/230743216-c0687fae-50d3-483e-b5fc-65f5ccbbe3fd.png" alt="Logo" width="800">
   </a>
-  <h3 align="center">Railway applications &#x300A; B &#x300B;</h3>
+  <h3 align="center">Railway applications &#x300A; A &#x300B;</h3>
   <p align="center">
     Wheel / Rail Contact Characterization Program
   </p>
 </div>
 
+<!-- MOTIVATIONS -->
+## Global project's motivations
+
+<div align="justify">
+  <p>
+Back in 2013, when I started my PhD, I would have appreciated to have access to more information and resources. Everything done was the product of sailing in a storm, with a boat and only 1 oar. I learned from experience, but the learning path doesn't need to be like this. I'm not complaining about anything, I just pretend that if someone is interested in the information, they have access to help that I didn't have.
+   </p>
+ <p align="right">
+    :muscle: don't let anyone get you down :muscle:
+  </p> 
+   <div>
+     
 <!-- ABOUT THE PROJECT -->
 ## About the project
 
