@@ -45,6 +45,8 @@ c) determine the equivalent conicity for a lateral movement yˆ of the wheelset 
   Reference profiles in Annex D must be smoothed by interpolation, which allows the location of the contact points in order to calculate the rolling radius difference as a function of the lateral position of the wheelset.
   Starting from this function the equivalent conicity is calculated as a function of the amplitude of the oscillation. 
   
+* The reference profiles used, whose are defined for benchmark calculations in the Annex D to test the algorithm in a wide range of conditions, have been smoothed by cubic interpolation which allows the location of the contact points in order to calculate the rolling radius difference as a function of the lateral position of the wheelset. 
+  
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
