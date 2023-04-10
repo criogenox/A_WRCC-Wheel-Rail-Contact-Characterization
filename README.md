@@ -41,7 +41,10 @@ b) determine the ∆r = f(y) characteristic giving, for each lateral movement y 
 difference between the right-hand and the left-hand rolling radius ∆r = r1 – r2;
 c) determine the equivalent conicity for a lateral movement yˆ of the wheelset on the track. 
 
-
+ 
+  Reference profiles in Annex D must be smoothed by interpolation, which allows the location of the contact points in order to calculate the rolling radius difference as a function of the lateral position of the wheelset.
+  Starting from this function the equivalent conicity is calculated as a function of the amplitude of the oscillation. 
+  
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
