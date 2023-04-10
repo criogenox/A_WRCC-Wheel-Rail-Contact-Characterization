@@ -74,31 +74,7 @@ c) determine the equivalent conicity for a lateral movement yˆ of the wheelset 
   </a>
   <a href="https://netbeans.apache.org/">
     <img class="img"src="https://user-images.githubusercontent.com/53323058/230740868-4ac4dc6c-dc63-494b-8817-01ce016d8347.png" alt="Logo" width="160" height="65"/>
-  </a> 
-  <a href="https://html.spec.whatwg.org/multipage/">
-    <img class="img"src="https://user-images.githubusercontent.com/53323058/230736376-d9063d6b-ad72-4a62-98c6-f2225abf64b0.png" alt="Logo" width="160" height="65"/>
-  </a> 
-  <a href="https://www.thymeleaf.org/index.html/">
-    <img class="img"src="https://user-images.githubusercontent.com/53323058/230737176-0c3c3bdd-22d6-4af6-9041-3abed24a5de5.png" alt="Logo" width="160" height="65"/>
-  </a> 
-  <a href="https://spring.io/">
-    <img class="img"src="https://user-images.githubusercontent.com/53323058/230740257-d2d1973c-dcb8-42b3-a711-0c11d2406e9b.png" alt="Logo" width="160" height="65"/>
-  </a> 
-  <a href="https://www.java.com/en/">
-    <img class="img"src="https://user-images.githubusercontent.com/53323058/230740344-8bb2c4f8-5266-4ad1-a01c-0cce872623e0.png" alt="Logo" width="160" height="65"/>
-  </a> 
-  <a href="https://maven.apache.org/">
-    <img class="img"src="https://user-images.githubusercontent.com/53323058/230741096-33c1b8ab-1ec8-4364-b877-09aaa7df0fcd.png" alt="Logo" width="160" height="65"/>
-  </a> 
-  <a href="https://tailwindcss.com/">
-    <img class="img"src="https://user-images.githubusercontent.com/53323058/230746254-47f923b1-f3b5-4cd0-a858-c6f1bea0be34.png" alt="Logo" width="160" height="65"/>
-  </a> 
-  <a href="https://maven.apache.org/">
-    <img class="img"src="https://user-images.githubusercontent.com/53323058/230741096-33c1b8ab-1ec8-4364-b877-09aaa7df0fcd.png" alt="Logo" width="160" height="65"/>
-  </a> 
-  <a href="https://maven.apache.org/">
-    <img class="img"src="https://user-images.githubusercontent.com/53323058/230741096-33c1b8ab-1ec8-4364-b877-09aaa7df0fcd.png" alt="Logo" width="160" height="65"/>
-  </a> 
+  </a>
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
