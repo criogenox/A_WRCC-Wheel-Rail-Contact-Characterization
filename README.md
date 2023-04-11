@@ -127,7 +127,7 @@ From the processed conicity value, the stability of the vehicle can be evaluated
 
 - [x] Improve Potential Contact Points Detection 
 - [x] Asymetric Cases Implementation
-- [x] Stand-alone Unified Version
+- [x] Stand-alone Unified Version (Equivalente Conicity add-on)
 - [ ] Improve Error Events Handling
 - [ ] Increse Profiles Data Base (Extending to APTA/ARR Standards)
 - [ ] More & More Testing (Including Worn Cases)
