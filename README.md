@@ -16,7 +16,7 @@
 
 <div align="justify">
   <p>
-Back in 2013, when I started my PhD, I would have appreciated to have access to more information and resources. Everything done was the product of sailing through a storm, on a old boat with only 1 oar. I learned from experience, but the learning path doesn't need to be like this. I'm not complaining about anything, I just pretend that if someone is interested in the information, they have access to help that I didn't have.
+Back in 2013, when I decided to enter in these unfamiliar waters, I would have appreciated to have access to more information and resources. Everything done was the product of sailing through a storm, on a old boat with only 1 oar. I learned from experience, but the learning path doesn't need to be like this. I'm not complaining about anything, I just pretend that if someone is interested in the information, they have access to help that I didn't have.
    </p>
  <p align="right">
     :muscle: don't let anyone get you down :muscle:
@@ -63,7 +63,7 @@ c) determine the equivalent conicity for a lateral movement yˆ of the wheelset 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Built With
+## Built With
 
 <div style="display: flex; flex-direction: row; align=center">
   <a href="https://openjfx.io/">
@@ -75,6 +75,14 @@ c) determine the equivalent conicity for a lateral movement yˆ of the wheelset 
   <a href="https://netbeans.apache.org/">
     <img class="img"src="https://user-images.githubusercontent.com/53323058/230740868-4ac4dc6c-dc63-494b-8817-01ce016d8347.png" alt="Logo" width="160" height="65"/>
   </a>
+  
+### Additional info
+
+* Manual GUI design & implementation. No fxml file is used in this project (SceneBuilder). Good practice to really understand what you actually are doing.
+  
+* No Maven artifacts are used (required libraries are enclosed in lib folder). JavaFX library must be properly configured in your IDE to run the program.
+  
+* For a more in-depth understanding of the implemented equations, formulas, and algorithms, as many comments as possible have been included.
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
