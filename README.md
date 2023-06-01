@@ -133,12 +133,12 @@ From the processed conicity value, the stability of the vehicle can be evaluated
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Improve Potential Contact Points Detection 
-- [x] Asymetric Cases Implementation
-- [x] Stand-alone Unified Version (Equivalent Conicity add-on)
-- [x] Implementation of Output Options (PDFBox library)     
-- [x] Improve Error Events Handling
-- [ ] Increse Profiles Data Base (APTA/ARR Standards & Worn Cases)
+- [x] Improve potential contact points detection 
+- [x] Asymetric cases implementation
+- [x] Stand-alone unified version (Equivalent conicity add-on)
+- [x] Implementation of output options (PDFBox library)     
+- [x] Improve error events handling
+- [ ] Increse profiles data base (APTA/ARR standards & worn cases)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
