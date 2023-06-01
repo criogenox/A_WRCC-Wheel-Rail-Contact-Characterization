@@ -27,9 +27,7 @@ Back in time, when I decided to enter in these unfamiliar waters, I would have a
 ## About the project
 
 <div align="justify">
-This project was born as an aditional work to fullfil a personal pending asignature from my PhD days. Nothing more, nothing less.
-  
-As the software name says: the program is capable of characterise the wheel-rail contact, useful in railway sector dynamics analyses. 
+This project was born as an aditional work to fullfil a personal pending asignature from my PhD days. Nothing more, nothing less. As the software name says: the program is capable of characterise the wheel-rail contact, useful in railway sector dynamics analyses. 
   
 Let's Prof. Dr. Ing. habil. Oldrich Polach clarifies our way:
 
