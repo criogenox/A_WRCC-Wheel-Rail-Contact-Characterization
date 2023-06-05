@@ -29,6 +29,7 @@ Back in time, when I decided to enter in these unfamiliar waters, I would have a
 <div align="justify">
 This project was born as an aditional work to fullfil a personal pending asignature from my PhD days. Nothing more, nothing less. As the software name says: the program is capable of characterise the wheel-rail contact, useful in railway sector dynamics analyses. 
   
+  
 Let's Prof. Dr. Ing. habil. Oldrich Polach clarifies our way:
 
 > In railway applications, the so-called equivalent conicity is used in order to characterise the contact geometry wheelset/track. Basically, the wheelset/track pairing is _“replaced”_ with an _“equivalent wheelset”_ having a conical wheel tread surface, which only possesses validity for a specific wheelset lateral amplitude. The equivalent conicity is then the conicity of a conical wheelset performing a similar wavelike motion as the examined wheelset, at the prescribed lateral amplitude.
