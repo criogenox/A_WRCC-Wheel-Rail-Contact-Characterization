@@ -99,10 +99,10 @@ The method proposed by the EN 15302 standard is based on the analysis of the kin
   
 ### The main application
   
-The software capabilities focuses on the characterization of wheel-rail rigid contact through the aid of following specific calculations:
+The software capabilities focus on the characterization of wheel-rail rigid contact through the aid of following specific calculations:
 
-> * Potential wheel-rail `contact points detection` by mean of rigid profiles penetration comparision;
-> * tan(γa) --> `contact angle` between wheel and rail (formely, angle of the tangent to the point of contact);
+> * Potential wheel-rail `contact points detection` by mean of rigid profiles penetration comparison;
+> * tan(γa) --> `contact angle` between wheel and rail (formerly, angle of the tangent to the point of contact);
 > * ∆r --> `rolling-radius difference function`, at the predefined lateral amplitude interval;
 > * tan(γc)=f(λ) --> `equivalent conicity` for each movement wavelength of a (equivalent) conical profile, at a specific lateral displacement (wave amplitude).
 
