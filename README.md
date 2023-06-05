@@ -36,27 +36,6 @@ Let's Prof. Dr. Ing. habil. Oldrich Polach clarifies our way:
 The equivalent conicity acts as a safety parameter which describes the behavior and dynamic interaction between rails & wheels running on a straight or large radius (curved) track. This way, the equivalent conicity could indicate the presence of instable movement leading to a derailment event, therefore It can be used to determine a critical speed of a train at any type of track.
   
 This crucial parameter could be calculated based on two standards, namely **UIC 519** and **EN 15302**. The non-linear method described in the last one is used by the given software (see the benchmark program in Railway applications 《 B 》- Equivalent Conicity Calculation).
-
-
-For the described method of determination the following assumptions are used:
- in the calculation both the wheel and the rail are considered rigid;
- wheels are symmetrical in revolution and are represented by a single profile for each wheel;
- rails are straight, parallel to each other and represented by a single profile for each rail;
- wheel does not penetrate into the rail: only point contacts are considered; 
-
-This is done by the following procedure:
-a) determine the wheel and rail profiles, either by measurement of real profiles or by a theoretical calculation
-for theoretical profiles;
-b) determine the ∆r = f(y) characteristic giving, for each lateral movement y of the wheelset on the track, the
-difference between the right-hand and the left-hand rolling radius ∆r = r1 – r2;
-c) determine the equivalent conicity for a lateral movement yˆ of the wheelset on the track. 
-
- 
-  Reference profiles in Annex D must be smoothed by interpolation, which allows the location of the contact points in order to calculate the rolling radius difference as a function of the lateral position of the wheelset.
-  Starting from this function the equivalent conicity is calculated as a function of the amplitude of the oscillation. 
-  
-* The reference profiles used, whose are defined for benchmark calculations in the Annex D to test the algorithm in a wide range of conditions, have been smoothed by cubic interpolation which allows the location of the contact points in order to calculate the rolling radius difference as a function of the lateral position of the wheelset. 
-  
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -102,7 +81,7 @@ In this way, the equivalent conicity is a parameter used to characterize the geo
 
 <img align="right" width="500" src="https://user-images.githubusercontent.com/53323058/230651059-2a746e31-8ca0-42a1-9418-eb15def72d44.png">
 
-### Wheel's taper conicity importance
+### Wheel's conicity importance
   
 The value of the wheel conicity provides quantitative information on the influence of the wheel-rail interaction on the quality of ride comfort and the dynamic stability of the rail vehicle.
   
@@ -128,6 +107,24 @@ The software capabilities focuses on the characterization of wheel-rail rigid co
 > * tan(γc)=f(λ) --> `equivalent conicity` for each movement wavelength of a (equivalent) conical profile, at a specific lateral displacement (wave amplitude).
 
 <img align="right" width="500" src="https://user-images.githubusercontent.com/53323058/230651010-9eef1df9-c020-47aa-b1ca-87671a28effe.png">
+For the described method of determination the following assumptions are used:
+ in the calculation both the wheel and the rail are considered rigid;
+ wheels are symmetrical in revolution and are represented by a single profile for each wheel;
+ rails are straight, parallel to each other and represented by a single profile for each rail;
+ wheel does not penetrate into the rail: only point contacts are considered; 
+
+This is done by the following procedure:
+a) determine the wheel and rail profiles, either by measurement of real profiles or by a theoretical calculation
+for theoretical profiles;
+b) determine the ∆r = f(y) characteristic giving, for each lateral movement y of the wheelset on the track, the
+difference between the right-hand and the left-hand rolling radius ∆r = r1 – r2;
+c) determine the equivalent conicity for a lateral movement yˆ of the wheelset on the track. 
+
+ 
+  Reference profiles in Annex D must be smoothed by interpolation, which allows the location of the contact points in order to calculate the rolling radius difference as a function of the lateral position of the wheelset.
+  Starting from this function the equivalent conicity is calculated as a function of the amplitude of the oscillation. 
+  
+* The reference profiles used, whose are defined for benchmark calculations in the Annex D to test the algorithm in a wide range of conditions, have been smoothed by cubic interpolation which allows the location of the contact points in order to calculate the rolling radius difference as a function of the lateral position of the wheelset. 
   
 The main factors that influence the determination of the equivalent conicity have been included, such as:
   
