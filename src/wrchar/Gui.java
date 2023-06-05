@@ -80,7 +80,7 @@ public class Gui extends Application {
     public void start(Stage primaryStage) throws Exception {
         primaryStage.setTitle("Railway applications — "
                              + "Wheel / Rail Contact Characterization Program");
-        // Initialization
+        // Instantiation
         var aligcl = CENTER_LEFT;
         title = new Label("""
                     Generic Asymetric Contact Analysis
