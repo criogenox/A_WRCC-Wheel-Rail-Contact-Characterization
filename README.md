@@ -108,7 +108,7 @@ The software capabilities focuses on the characterization of wheel-rail rigid co
 
 <img align="right" width="500" src="https://user-images.githubusercontent.com/53323058/230651010-9eef1df9-c020-47aa-b1ca-87671a28effe.png">
   
-For the described method, the following assumptions are used:
+Within the described method, the following assumptions are used:
   
 * Both the wheel and the rail are considered rigid;
 * Wheels have revolution symmetry and are represented by a single profile (for each wheel);
