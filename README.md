@@ -118,8 +118,6 @@ Low taper conicity (longer wavelength at comparative constant speed):
   
 The method proposed by the EN 15302 standard is based on the analysis of the kinetic movement of a pair mounted on a straight track or large radius curved paths. The determination of the equivalent conicity is performed by numerically integrating of the ∆r function, representing the longitudinal distance traveled in terms of lateral displacement, x = f(y). From the latter, the wavelength λ is obtained for a lateral displacements in the interval [1-7 mm] with increments of ∆y ≤ 0.1mm, to finally determine the equivalent conicity by using the Klingel's formula for a conical profile whose kinematic movement presents the same wavelength.
   
-<img align="right" width="500" src="https://user-images.githubusercontent.com/53323058/230651010-9eef1df9-c020-47aa-b1ca-87671a28effe.png">
-
 ### The main application
   
 The software capabilities focuses on the characterization of wheel-rail rigid contact through the aid of following specific calculations:
@@ -128,6 +126,8 @@ The software capabilities focuses on the characterization of wheel-rail rigid co
 > * tan(γa) --> `contact angle` between wheel and rail (formely, angle of the tangent to the point of contact).
 > * ∆r --> `rolling-radius difference function`, at the predefined lateral amplitude interval. 
 > * tan(γc)=f(λ) --> `equivalent conicity` for each movement wavelength of a (equivalent) conical profile, at a specific lateral displacement (wave amplitude).
+
+<img align="right" width="500" src="https://user-images.githubusercontent.com/53323058/230651010-9eef1df9-c020-47aa-b1ca-87671a28effe.png">
   
 The included parameters that influence the determination of the equivalent conicity are the geometry of the profiles, the gauge of the track, the inclination of the rail and the active gauge of the mounted pair. Other factors, not implemented up to the present time, that increase the complexity of the process calculation are the wear of the profiles and the deviations present in the track layout, such as the unevenness, gauge difference and alignment. 
 
