@@ -135,14 +135,14 @@ The main factors that influence the determination of the equivalent conicity hav
 * The track gauge (see the picture with references on main GUI). 
 * The inclination angle of both rails. 
   
-### Mandatory TODO list
+#### Mandatory TODO list
   
 Other factors, not implemented up to the present time, that increase the complexity of the process calculation, will be considered in the near future:
   
 * The use of worn profiles as input cases.
 * Track global irregularities: layout deviations, such as the unevenness, gauge difference and alignment. 
 
-### Note about software output results
+#### Note about software output results
   
 From the processed conicity value, the stability of the vehicle can be evaluated depending on longitudinal running velocity, ensuring the generation of the required restoring forces when the formation goes through a open curve, increasing safety against derailment. Nevertheless, for real profiles and after a long period of use, the equivalent taper conicity can be reach values in a higher range due to excessive wear, and must be critically evaluated by a trained professional.       
 </div>
