@@ -29,14 +29,13 @@ Back in time, when I decided to enter in these unfamiliar waters, I would have a
 <div align="justify">
 This project was born as an aditional work to fullfil a personal pending asignature from my PhD days. Nothing more, nothing less. As the software name says: the program is capable of characterise the wheel-rail contact, useful in railway sector dynamics analyses. 
   
-  
 Let's Prof. Dr. Ing. habil. Oldrich Polach clarifies our way:
 
 > In railway applications, the so-called equivalent conicity is used in order to characterise the contact geometry wheelset/track. Basically, the wheelset/track pairing is _“replaced”_ with an _“equivalent wheelset”_ having a conical wheel tread surface, which only possesses validity for a specific wheelset lateral amplitude. The equivalent conicity is then the conicity of a conical wheelset performing a similar wavelike motion as the examined wheelset, at the prescribed lateral amplitude.
   
 The equivalent conicity acts as a safety parameter which describes the behavior and dynamic interaction between rails & wheels running on a straight or large radius (curved) track. This way, the equivalent conicity could indicate the presence of instable movement leading to a derailment event, therefore It can be used to determine a critical speed of a train at any type of track.
   
-This crucial parameter could be calculated based on two standards, namely **UIC 519** and **EN 15302**. The non-linear method described in the last one is used by the given software.
+This crucial parameter could be calculated based on two standards, namely **UIC 519** and **EN 15302**. The non-linear method described in the last one is used by the given software (see the benchmark program in Railway applications 《 B 》- Equivalent Conicity Calculation).
 
 
 For the described method of determination the following assumptions are used:
@@ -79,7 +78,7 @@ c) determine the equivalent conicity for a lateral movement yˆ of the wheelset 
 
 * Manual GUI design & implementation. No fxml file is used in this project (SceneBuilder). Good practice to really understand what you actually are doing.
   
-* No Maven artifacts are used (required libraries are enclosed in lib folder). JavaFX library must be properly configured in your IDE to run the program.
+* No Maven artifacts are used (required libraries are enclosed in lib folder). JavaFX library must be properly configured in your IDE to run the program (minimum requirement = SDK v19).
   
 * For a more in-depth understanding of the implemented equations, formulas, and algorithms, as many comments as possible have been included.
 </div>
@@ -93,6 +92,8 @@ c) determine the equivalent conicity for a lateral movement yˆ of the wheelset 
   <!-- <img align="right" src="https://user-images.githubusercontent.com/53323058/230650942-4c2e0ad4-2d52-46fe-aa67-8860c642e5f6.png" width="500"> -->
 <img align="right" src="https://user-images.githubusercontent.com/53323058/230650942-4c2e0ad4-2d52-46fe-aa67-8860c642e5f6.png" width="500">
 
+### Introduction
+  
 Both the theoretical and the real profiles (including worn ones) cannot be described by a linear function as in the case of wheels with a conical profile, therefore, the difference between the rolling radii of each wheel for different values of lateral displacement brings a nonlinear function ∆r. To linearize this function, the concept of equivalent conicity originally defined by the UIC 519 standard (EN 15302) is used, approximating the relationship between ∆r and the amplitude of the lateral displacement.
 
 For a wheel with a conical profile, the equivalent conicity is simply the half-angle of the tread of the cone. For wheels with arbitrary profiles, the equivalent conicity is defined as the tangent of the angle of the cone of a purely conical profile whose lateral movement produces a kinematic oscillation with the same wavelength as the pair mounted with arbitrary profiles. This definition is only applicable in the analysis on straight paths and large radius curves (Rc ≥ 2500m).
@@ -100,18 +101,22 @@ For a wheel with a conical profile, the equivalent conicity is simply the half-a
 In this way, the equivalent conicity is a parameter used to characterize the geometry of the wheel-rail contact and establishes the criterion for assessing the influence of the contact on the vehicle's driving stability on a straight track. 
 
 <img align="right" width="500" src="https://user-images.githubusercontent.com/53323058/230651059-2a746e31-8ca0-42a1-9418-eb15def72d44.png">
+
+### Wheel's taper conicity importance
   
 The value of the wheel conicity provides quantitative information on the influence of the wheel-rail interaction on the quality of ride comfort and the dynamic stability of the rail vehicle.
   
 High taper conicity (shortest wavelength at comparative constant speed):
-  * Greater compensation of the centrifugal force on curved paths, reducing the risk of derailment.
-  * Reduced driving comfort on a straight track due to the presence of greater lateral accelerations.
+  * Increase the compensating effect on the centrifugal force generated on curved paths, reducing the risk of derailment.
+  * Reduce driving comfort on a straight track due to the presence of greater lateral accelerations.
   
 Low taper conicity (longer wavelength at comparative constant speed):
-  * Increase in the frequency of occurrence of the flange hit during circulation in slight curves, causing excessive wear on the wheel profile.
-  * Decreased lateral acceleration, increasing ride quality on straight paths.
+  * Increase the frequency of occurrence of the flange hit during circulation in slight curves, causing excessive wear on the wheel profile.
+  * Decrease the lateral acceleration, increasing ride quality on straight paths.
+
+### Summary of the numerical estimation of equivalent conicity
   
-The method proposed by the EN 15302 standard is based on the analysis of the kinetic movement of a pair mounted on a straight track or large radius curved paths. The determination of the equivalent conicity is performed by numerically integrating the function ∆r, representing the longitudinal distance traveled in terms of lateral displacement, x = f(y). From the latter, the wavelength λ is obtained for lateral displacements in the interval [1-7 mm] with increments ∆y ≤ 0.1mm, to finally determine the equivalent conicity by using the Klingel's formula for a conical profile whose kinematic movement presents the same wavelength.
+The method proposed by the EN 15302 standard is based on the analysis of the kinetic movement of a pair mounted on a straight track or large radius curved paths. The determination of the equivalent conicity is performed by numerically integrating of the ∆r function, representing the longitudinal distance traveled in terms of lateral displacement, x = f(y). From the latter, the wavelength λ is obtained for a lateral displacements in the interval [1-7 mm] with increments of ∆y ≤ 0.1mm, to finally determine the equivalent conicity by using the Klingel's formula for a conical profile whose kinematic movement presents the same wavelength.
   
 <img align="right" width="500" src="https://user-images.githubusercontent.com/53323058/230651010-9eef1df9-c020-47aa-b1ca-87671a28effe.png">
  
@@ -139,17 +144,9 @@ From the processed conicity value, the stability of the vehicle can be evaluated
 - [x] Improve error events handling
 - [ ] Increse profiles data base (APTA/ARR standards & worn cases)
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [linkedin-shield]: https://user-images.githubusercontent.com/53323058/230575198-fa1acbf4-8f82-4d8e-b245-3979276bc240.png
-[linkedin-url]: https://linkedin.com/in/
+[linkedin-url]: https://www.linkedin.com/in/vincent-tnecniv/
