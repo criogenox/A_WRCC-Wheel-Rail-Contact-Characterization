@@ -15,7 +15,7 @@ public class Calc {
         for (double[] yci : yc) {
             int imin = (int) yci[3];
             int imax = (int) yci[4];
-            // s(imin:imax)]
+            // s(imin:imax)
             double[] si = Arrays.copyOfRange(s, imin, imax+1);
             double[] psi = new double[si.length];
             double C = yci[5];
