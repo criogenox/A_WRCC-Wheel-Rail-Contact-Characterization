@@ -129,8 +129,21 @@ The software capabilities focuses on the characterization of wheel-rail rigid co
 
 <img align="right" width="500" src="https://user-images.githubusercontent.com/53323058/230651010-9eef1df9-c020-47aa-b1ca-87671a28effe.png">
   
-The included parameters that influence the determination of the equivalent conicity are the geometry of the profiles, the gauge of the track, the inclination of the rail and the active gauge of the mounted pair. Other factors, not implemented up to the present time, that increase the complexity of the process calculation are the wear of the profiles and the deviations present in the track layout, such as the unevenness, gauge difference and alignment. 
+The main factors that influence the determination of the equivalent conicity have been included, such as:
+  
+* The geometry of the profiles (taper's rolling radii and tranversal section data).
+* The track gauge (see the picture with references on main GUI). 
+* The inclination angle of both rails. 
+  
+### Mandatory TODO list
+  
+Other factors, not implemented up to the present time, that increase the complexity of the process calculation, will be considered in the near future:
+  
+* The use of worn profiles as input cases.
+* Track global irregularities: layout deviations, such as the unevenness, gauge difference and alignment. 
 
+### Note about software output results
+  
 From the processed conicity value, the stability of the vehicle can be evaluated depending on longitudinal running velocity, ensuring the generation of the required restoring forces when the formation goes through a open curve, increasing safety against derailment. Nevertheless, for real profiles and after a long period of use, the equivalent taper conicity can be reach values in a higher range due to excessive wear, and must be critically evaluated by a trained professional.       
 </div>
 
