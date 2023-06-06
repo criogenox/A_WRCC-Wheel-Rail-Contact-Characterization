@@ -83,7 +83,7 @@ public class Gui extends Application {
         // Instantiation
         var aligcl = CENTER_LEFT;
         title = new Label("""
-                    Generic Asymetric Contact Analysis
+                   Generic Asymmetric Contact Analysis
                  \u300A   General Calculation Parameters   \u300B""");
 	title.setPrefWidth(280);
         title.setAlignment(Pos.CENTER);
@@ -104,7 +104,7 @@ public class Gui extends Application {
         lbrr.setStyle("-fx-font-style: italic");
         //----------------------------------------------------------
         cas=2;
-        ck1 = new CheckBox("asymetric case");
+        ck1 = new CheckBox("asymmetric case");
         ck1.setOnAction(event -> sp2.getStyleClass().clear());
         ck1.setOnAction(event -> {
            check();     
@@ -120,7 +120,7 @@ public class Gui extends Application {
         lbtck.setAlignment(aligcl);
         lbtck.setStyle("-fx-font-style: italic");
         //----------------------------------------------------------
-        title2 = new Label("\u300A   Wheel/Rail Data Profiles   \u300B");
+        title2 = new Label("\u300A   Wheel/Rail Profiles Data  \u300B");
 	title2.setPrefWidth(270);
         title2.setAlignment(Pos.CENTER);
         title2.setStyle("-fx-font-weight: bold");
@@ -167,7 +167,7 @@ public class Gui extends Application {
 	tin2.setPromptText("ex: (left & right) S-UIC 519A");
         tin2.setAlignment(Pos.CENTER);
         //
-        lbin3 = new Label("Aditional info:");
+        lbin3 = new Label("Add. info:");
 	lbin3.setPrefWidth(75);
         lbin3.setAlignment(aligcl);
         lbin3.setStyle("-fx-font-style: italic");
@@ -411,7 +411,7 @@ public class Gui extends Application {
         tab00.setClosable(false);
         //
         tab0 = new Tab();
-        tab0.setText("Potentials Contact Points");
+        tab0.setText("Potential Contact Points");
         tab0.setStyle("-fx-font-weight: bold");
         tab0.setClosable(false);
         //
