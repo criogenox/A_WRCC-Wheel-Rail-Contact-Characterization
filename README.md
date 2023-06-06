@@ -69,7 +69,7 @@ This crucial parameter could be calculated based on two standards, namely **UIC 
 
 <div align="justify"> 
   <!-- <img align="right" src="https://user-images.githubusercontent.com/53323058/230650942-4c2e0ad4-2d52-46fe-aa67-8860c642e5f6.png" width="500"> -->
-<img align="right" src="https://user-images.githubusercontent.com/53323058/230650942-4c2e0ad4-2d52-46fe-aa67-8860c642e5f6.png" width="500">
+<img align="right" src="https://github.com/criogenox/global-template/issues/1#issue-1658187619" width="500">
 
 ### Introduction
   
@@ -79,7 +79,7 @@ For a wheel with a conical profile, the equivalent conicity is simply the half-a
 
 In this way, the equivalent conicity is a parameter used to characterize the geometry of the wheel-rail contact and establishes the criterion for assessing the influence of the contact on the vehicle's driving stability on a straight track. 
 
-<img align="right" width="500" src="https://user-images.githubusercontent.com/53323058/230651059-2a746e31-8ca0-42a1-9418-eb15def72d44.png">
+<img align="right" width="500" src="https://github.com/criogenox/global-template/issues/8#issue-1659025035">
 
 ### Wheel's conicity importance
   
@@ -106,7 +106,7 @@ The software capabilities focus on the characterization of wheel-rail rigid cont
 > * ∆r --> `rolling-radius difference function`, at the predefined lateral amplitude interval;
 > * tan(γc)=f(λ) --> `equivalent conicity` for each movement wavelength of a (equivalent) conical profile, at a specific lateral displacement (wave amplitude).
 
-<img align="right" width="500" src="https://user-images.githubusercontent.com/53323058/230651010-9eef1df9-c020-47aa-b1ca-87671a28effe.png">
+<img align="right" width="500" src="https://github.com/criogenox/global-template/issues/7#issue-1659024746">
   
 Within the described method, the following assumptions are used:
   
