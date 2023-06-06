@@ -79,7 +79,7 @@ For a wheel with a conical profile, the equivalent conicity is simply the half-a
 
 In this way, the equivalent conicity is a parameter used to characterize the geometry of the wheel-rail contact and establishes the criterion for assessing the influence of the contact on the vehicle's driving stability on a straight track. 
 
-<img align="right" width="500" src="https://private-user-images.githubusercontent.com/53323058/243568885-243590ee-1ffa-4cfd-83b6-1a7a1d17fa0a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg2MDM0Mzg5LCJuYmYiOjE2ODYwMzQwODksInBhdGgiOiIvNTMzMjMwNTgvMjQzNTY4ODg1LTI0MzU5MGVlLTFmZmEtNGNmZC04M2I2LTFhN2ExZDE3ZmEwYS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMwNjA2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMDYwNlQwNjQ4MDlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jM2RmMGNhMTM3ZTQ0YjIwYjFmNmFkYzU1NGY2MGJlMzdlODk0OGE1ZWM2NmEyMGQxZDUzMDg3YTFjM2ZmMzliJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.VCS19OxEseWWUcO-70LoQ0sn2pAAEQDQ4Yp7X7sspr0">
+<img align="right" width="500" src="https://user-images.githubusercontent.com/53323058/243651913-bc95cea4-cfab-4a51-bb11-09afd7b4a07c.png">
 
 ### Wheel's conicity importance
   
@@ -106,7 +106,7 @@ The software capabilities focus on the characterization of wheel-rail rigid cont
 > * ∆r --> `rolling-radius difference function`, at the predefined lateral amplitude interval;
 > * tan(γc)=f(λ) --> `equivalent conicity` for each movement wavelength of a (equivalent) conical profile, at a specific lateral displacement (wave amplitude).
 
-<img align="right" width="500" src="https://private-user-images.githubusercontent.com/53323058/243568860-9a356646-d7ef-46f4-a47b-be43ee800ea4.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg2MDM0Mzg5LCJuYmYiOjE2ODYwMzQwODksInBhdGgiOiIvNTMzMjMwNTgvMjQzNTY4ODYwLTlhMzU2NjQ2LWQ3ZWYtNDZmNC1hNDdiLWJlNDNlZTgwMGVhNC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMwNjA2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMDYwNlQwNjQ4MDlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04YWZjNmFiOGIwMDM5OTM5NWJkNjA2YzhiYzMzYTAwNjg0NzIwYzIyOGE2Yzk1Yzg0ZWMyZTUzN2RmMDYzZWI4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.xa4z8MB-Ba3x2KjdSCXIv_O0xnZO1gEnnOwuLRDjN38">
+<img align="right" width="500" src="https://user-images.githubusercontent.com/53323058/243652157-d5a8055d-f0d0-4673-9b5b-dc28aefd47c8.png">
   
 Within the described method, the following assumptions are used:
   
