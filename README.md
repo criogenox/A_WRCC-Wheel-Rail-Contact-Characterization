@@ -69,7 +69,7 @@ This crucial parameter could be calculated based on two standards, namely **UIC 
 
 <div align="justify"> 
   <!-- <img align="right" src="https://user-images.githubusercontent.com/53323058/230650942-4c2e0ad4-2d52-46fe-aa67-8860c642e5f6.png" width="500"> -->
-<img align="right" src="https://github.com/criogenox/global-template/issues/1#issue-1658187619" width="500">
+<img align="right" src="https://private-user-images.githubusercontent.com/53323058/243568823-73a59f20-5a0d-47d9-a360-63c6b314471c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg2MDMzODEwLCJuYmYiOjE2ODYwMzM1MTAsInBhdGgiOiIvNTMzMjMwNTgvMjQzNTY4ODIzLTczYTU5ZjIwLTVhMGQtNDdkOS1hMzYwLTYzYzZiMzE0NDcxYy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMwNjA2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMDYwNlQwNjM4MzBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iYzhjZTVkYzVjNDhjMWViZGJmNjBmMmVjYTU4YTM5ZjJkMTgwNmQ5MjdhMTQ0Y2M3MGVkNmJlYjFmYWYyM2ZhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.fqXZzNDZccqf2YX33734AhRdIzlfsbxUNxgP8q6FmYI" width="500">
 
 ### Introduction
   
