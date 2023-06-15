@@ -121,13 +121,13 @@ The entire procedure lies on the ∆r function determination accuracy, either fo
   
 The main factors that influence the determination of the equivalent conicity have been included, such as:
   
-* The geometry of the profiles (taper's rolling radii and transversal section data);
-* The track gauge (see the picture with references on the main GUI);
-* The inclination angle of both rails. 
+* Geometry of the profiles (taper's rolling radii and transversal section data);
+* Track gauge (see the picture with references on the main GUI);
+* Inclination angle of both rails. 
   
 #### Mandatory TODO list
   
-Other factors, not implemented up to the present time, that increase the complexity of the process calculation, will be considered in the near future:
+Other factors, not implemented up to the present time, and that increase the complexity of the process calculation, will be considered in the near future:
   
 * The use of worn profiles as input cases;
 * Track global irregularities: layout deviations, such as the unevenness, gauge difference and alignment. 
