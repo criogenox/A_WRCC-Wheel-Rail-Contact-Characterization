@@ -53,7 +53,7 @@ This crucial parameter could be calculated based on two standards, namely **UIC 
     <img class="img"src="https://user-images.githubusercontent.com/53323058/230740868-4ac4dc6c-dc63-494b-8817-01ce016d8347.png" alt="Logo" width="160" height="65"/>
   </a>
   <a href="https://www.w3.org/XML/">
-    <img class="img"src="https://user-images.githubusercontent.com/53323058/248514552-4b3fc5bb-9ba2-4833-bf07-633bea38a66c.png" alt="Logo" width="160" height="65"/>
+    <img class="img"src="https://user-images.githubusercontent.com/53323058/248514581-f49876f4-fc6b-4afb-b784-f903ecca5f4b.png" alt="Logo" width="160" height="65"/>
   </a>
   
 ### Additional info
