@@ -14,7 +14,6 @@ public class ReadFile {
     public double[][] choose2(String fileName) throws FileNotFoundException{
         List<Double> list1= new ArrayList<>();
         List<Double> list2= new ArrayList<>();
-//        String fileName = "s1002.dat";
         File filescan = new File(fileName);
         try (Scanner scanner = new Scanner(filescan)) {
             while (scanner.hasNext()) {
