@@ -27,21 +27,4 @@ public class ReadFile {
                              list2.stream().mapToDouble(Double::doubleValue).toArray()};
         return outmat;
     }
-//    public double[][] choose(String fileName) throws FileNotFoundException{
-//        double[] number1 = new double[1001];
-//        double[] number2 = new double[1001];
-//        int j=0;
-////        String fileName = "s1002.dat";
-//        File filescan = new File(fileName);
-//        try (Scanner scanner = new Scanner(filescan)) {
-//            while (scanner.hasNext()) {
-//                number1[j] = (Double.parseDouble(scanner.next()));
-//                number2[j] = (Double.parseDouble(scanner.next()));
-//                j=j+1;
-//            }  
-//            scanner.close();
-//        }
-//        double [][] num2d = {number1, number2};
-//        return num2d;
-//    }
 }
