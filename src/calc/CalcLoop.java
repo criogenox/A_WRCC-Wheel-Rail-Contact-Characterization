@@ -22,7 +22,7 @@ public class CalcLoop {
         double[][] wrt= new MatMet().roll(r0, beta, d_l, s, wt[0] , wt[1]);
         // interpolated wheel profile in rail coordinates
         double[][] wts = new Minterp().cubic(wrt,rt[0]);
-        // height profile comparision
+        // height profile comparison
         double[] pcom = new double[wt[0].length];
         Arrays.setAll(pcom, i -> rt[1][i] - wts[1][i]);
         // max distance between profiles
