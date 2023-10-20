@@ -43,15 +43,9 @@ This crucial parameter could be calculated based on two standards, namely **UIC 
 ## Built With
 
 <div style="display: flex; flex-direction: row; align=center">
-  <a href="https://openjfx.io/">
     <img class="img"src="https://user-images.githubusercontent.com/53323058/230740541-3d3ee950-7f4c-4399-9275-9795ea7c4f37.png" alt="Logo" width="160" height="65"/>
-  </a>
-  <a href="https://www.w3.org/TR/CSS/#css">
     <img class="img"src="https://user-images.githubusercontent.com/53323058/230694275-351e4257-7cbf-4dc7-a1b6-42079b9b37aa.png" alt="Logo" width="160" height="65"/>
-  </a>
-  <a href="https://netbeans.apache.org/">
     <img class="img"src="https://user-images.githubusercontent.com/53323058/230740868-4ac4dc6c-dc63-494b-8817-01ce016d8347.png" alt="Logo" width="160" height="65"/>
-  </a>
 
 ### Additional info
 
