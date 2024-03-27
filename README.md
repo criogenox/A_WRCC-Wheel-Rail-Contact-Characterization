@@ -10,7 +10,7 @@
     Wheel / Rail Contact Characterization Program
   </p>
 </div>
-
+ 
 <!-- MOTIVATIONS -->
 ## Global project's motivations
 
