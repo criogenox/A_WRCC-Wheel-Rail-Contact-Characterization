@@ -1,0 +1,60 @@
+#inipos .chart-horizontal-zero-line {
+    -fx-stroke: blue;
+    -fx-stroke-width: 1px;
+    -fx-stroke-dash-array: 7, 5;
+}
+#inipos .chart-vertical-zero-line {
+    -fx-stroke: blue;
+    -fx-stroke-width: 1px;
+    -fx-stroke-dash-array: 7, 5;
+}
+#inipos .chart-title {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold; 
+    -fx-font-family: font-engineer-heavy;
+    -fx-alignment : center;
+}
+#conpon .chart-horizontal-zero-line {
+    -fx-stroke: transparent;
+}
+#conpon .chart-title {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold; 
+    -fx-font-family: font-engineer-heavy;
+    -fx-alignment : center;
+}
+#conpon .lineChart.getXAxis {
+    -fx-text-alignment: right;
+}     
+#dr-ang .default-color0.chart-series-line { 
+    -fx-stroke: blue;
+}
+#dr-ang .default-color0.chart-line-symbol { /* hollow circle */
+    -fx-background-color: blue, white;
+    -fx-background-insets: 0, 2;
+    -fx-background-radius: 5px;
+    -fx-padding: 2.5px;
+}
+#con .default-color0.chart-series-line { 
+    -fx-stroke: transparent;
+}
+#con .default-color0.chart-line-symbol { /* hollow circle */
+    -fx-background-color: blue, white;
+    -fx-background-insets: 0, 2;
+    -fx-background-radius: 5px;
+    -fx-padding: 2.5px;
+}
+#con .default-color1.chart-series-line { 
+    -fx-stroke: red; 
+    -fx-stroke-width: 2px; 
+    -fx-stroke-dash-array: 7, 5;
+}
+#con .default-color1.chart-line-symbol { 
+    -fx-background-color: transparent; 
+}
+#con .default-color2.chart-line-symbol { /* hollow circle */
+    -fx-background-color: red, white;
+    -fx-background-insets: 0, 2;
+    -fx-background-radius: 5px;
+    -fx-padding: 7px;
+}
